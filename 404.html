@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+.___  ___.      ___   .___________. __    __   __         __       _______.
+|   \/   |     /   \  |           ||  |  |  | |  |       |  |     /       |
+|  \  /  |    /  ^  \ `---|  |----`|  |__|  | |  |       |  |    |   (----`
+|  |\/|  |   /  /_\  \    |  |     |   __   | |  | .--.  |  |     \   \    
+|  |  |  |  /  _____  \   |  |     |  |  |  | |  | |  `--'  | .----)   |   
+|__|  |__| /__/     \__\  |__|     |__|  |__| |__|  \______/  |_______/ 
+ __       _______ .______      .___  ___.  _______ .______      
+|  |     |   ____||   _  \     |   \/   | |   ____||   _  \     
+|  |     |  |__   |  |_)  |    |  \  /  | |  |__   |  |_)  |    
+|  |     |   __|  |      /     |  |\/|  | |   __|  |      /     
+|  `----.|  |____ |  |\  \----.|  |  |  | |  |____ |  |\  \----.
+  |_______||_______|| _| `._____||__|  |__| |_______|| _| `._____|
+  -->
+  
+<html lang="nl">
+
+<head>
+  <title>LERMER</title>
+  <meta charset="UTF-8">
+        <!--- assets-->
+        <link rel="icon" href="assets/afb/favicon.png" type="image/png">
+        <link href="/assets/css/mrl.css" rel="stylesheet">
+        <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+        <!--- site-->
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+</head>
+
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+      <section id="sectie_kop">
+        <div class="container">
+          <header>
+            <logo>Lermer.nl</logo>
+            <nav id="main_menu_01">
+              <ul>
+                <li> <a href="/index.html">Welkom</a></Li>
+                <li> <a href="/assets/downloads/CURRICULUM VITAE Mathijs Lermer zonder contact gegevens.pdf">Curriculum vitae</a></Li>
+                  <li> <a href="https://uptime.lermer.nl/status/0">Uptime</a></Li>
+                </ul>
+            </nav>
+      
+            <a href='#' id="menuknopje" onclick="hamburgermenuknopje()" style="display: none;">
+            <i class="fas fa-bars"></i></a>
+      
+          </header>
+        </div>
+      </section>
+    
+      <section id="sectie_pagina">
+        <div class="container">
+          <div id="tekst-midden">
+
+            <h1>404</h1>
+            <p>This is not the page you are looking for.<br><br><br>
+
+            <picture>
+                <img src="/assets/afb/notlookingfor.gif" alt="Don't panic">
+            </picture>
+            <br><br>
+            <div id="knop">
+              <a href="https://lermer.nl" class="knop knop_contact">MOVE ALONG</a><br>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </section>
+    </div>
+
+    <section id="sectie_footer">
+      <div class="container">
+        <footer>
+          <div class="footer-links">
+              <ul>
+                <li><a href="https://lermer.nl">&copy;LERMER.NL</a></Li>
+                <li><a href="https://git.lermer.nl/Mathijs/lermer.nl">GIT</a></Li>
+              </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </div>
+</body>
+
+<script>
+function hamburgermenuknopje() {
+  var x = document.getElementById('main_menu_01');
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</html>
