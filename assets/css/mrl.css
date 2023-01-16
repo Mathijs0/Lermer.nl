@@ -181,7 +181,7 @@
       }
       
   a:hover {
-      background-color: #2B3642;
+      background-color: #374351;
     }
 
   /*specials*********************************************************************************************************/
@@ -197,29 +197,28 @@
   }
 
   .knop{
-    padding: 25px 90px 25px 90px;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
     font-size: 20px;
-    color: #D2E0F0;
     cursor: pointer;
 
     }
     #knop a:link{
       color: #D2E0F0;
-      background-color: transparent;
+      background-color: #2B3642;
       text-decoration: none;
+      padding: 25px 25px 25px 25px;
     }
       
     #knop a:visited {
-        color: rgba(255, 255, 255, 0);
+        color: #D2E0F0;
         background-color: #2B3642;
         text-decoration: none;
       }
       
     #knop a:hover {
-      background-color: #2B3642;
+      background-color: #374351;
     }
     
     #knop a:active {
@@ -229,10 +228,9 @@
     }
 
     .knop_contact{
-      padding: 25px 25px 25px 25px;
+      padding: 90px 25px 90px 25px;
       width: 100%;
       font-size: 18px;
-      background-color: #171E26
       }
 
 
@@ -280,17 +278,29 @@
 
 .footer-links ul li {
   display: inline-block;
-  padding: 15px 17px 15px 17px;
+  padding: 17px 10px 17px 10px;
+  background-color: #2B3642;
   text-transform: uppercase;
   border-radius: 5px;
   font-size: 20px;
-
   }
+
+  .footer-links ul li:hover {
+    display: inline-block;
+    padding: 17px 10px 17px 10px;
+    background-color: #374351;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 20px;
+    }
 
 .footer-links ul li a {
     text-decoration: none;
-    padding: 15px 17px 15px 17px;
-    border-radius: 5px;
+    color: #D2E0F0;
+  }
+
+  .footer-links ul li a:hover {
+    text-decoration: none;
     color: #D2E0F0;
   }
 
