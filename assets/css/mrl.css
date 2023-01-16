@@ -164,7 +164,7 @@
   }
   
   a:active {
-    color: yellow;
+    color: #8d100e;
     background-color: #2B3642;
     text-decoration: underline;
   }
@@ -198,6 +198,7 @@
 
   .knop{
     text-align: center;
+    padding: 25px 90px 25px 90px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 20px;
@@ -219,21 +220,49 @@
       
     #knop a:hover {
       background-color: #374351;
+      
     }
     
     #knop a:active {
-      color: yellow;
+      color: #8d100e;
       background-color: #2B3642;
       text-decoration: underline;
     }
 
-    .knop_contact{
-      padding: 90px 25px 90px 25px;
-      width: 100%;
-      font-size: 18px;
+    #knop_contact{
+      text-align: center;
+      padding: 0px 0px 25px 0px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 20px;
+      cursor: pointer;
       }
 
-
+    #knop_contact a:link{
+        color: #D2E0F0;
+        background-color: transparent;
+        text-decoration: none;
+        padding: 25px 25px 25px 25px;
+      }
+        
+    #knop_contact a:visited {
+          color: #D2E0F0;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+    #knop_contact a:hover {
+        background-color: #374351;
+        border-radius: 5px;
+      }
+      
+    #knop_contact a:active {
+        color: #8d100e;
+        background-color: #2B3642;
+        text-decoration: underline;
+        border-radius: 5px;
+      }  
+      
 /*menu*********/
     nav{
       float: right;
@@ -278,8 +307,7 @@
 
 .footer-links ul li {
   display: inline-block;
-  padding: 17px 10px 17px 10px;
-  background-color: #2B3642;
+  padding: 15px 17px 15px 17px;
   text-transform: uppercase;
   border-radius: 5px;
   font-size: 20px;
@@ -287,7 +315,6 @@
 
   .footer-links ul li:hover {
     display: inline-block;
-    padding: 17px 10px 17px 10px;
     background-color: #374351;
     text-transform: uppercase;
     border-radius: 5px;
@@ -301,9 +328,13 @@
 
   .footer-links ul li a:hover {
     text-decoration: none;
+    border-radius: 5px;
     color: #D2E0F0;
   }
 
-
+  .footer-links ul li a:active {
+    color: #8d100e;
+  }  
+  
   /*uitzonderingen*********************************************************************************************************/
 
