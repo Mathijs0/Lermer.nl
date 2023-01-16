@@ -28,6 +28,7 @@
         <link rel="icon" href="assets/afb/favicon.png" type="image/png">
         <link href="/assets/css/mrl.css" rel="stylesheet">
         <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+        <script type="text/javascript" src="/assets/js/mrl.js"></script>
         <!--- site-->
   <meta name="viewport" content="width=device-width, initial-scale=1" >
 </head>
@@ -38,7 +39,7 @@
       <section id="sectie_kop">
         <div class="container">
           <header>
-            <logo>Lermer.nl</logo>
+            <logo><a href="/">LERMER.NL</a></logo>
             <nav id="main_menu_01">
               <ul>
                 <li class="active"> <a href="/index.html">Welkom</a></Li>
@@ -67,14 +68,13 @@
             </picture>
 
             <h2>Contactgegevens:</h2>
-    
-            <div id="knop">
-              <a href="mailto:info@lermer.nl" class="knop knop_contact">E-mail: Mathijs@lermer.nl</a><br>
-              <br><br>
-              <a href="https://matrix.to/#/@mathijs:lermer.nl" class="knop knop_contact">[MATRIX]: @mathijs:lermer.nl</a><br>
-              <br><br>
-              <a href="https://mastodon.lermer.nl/@mathijs" class="knop knop_contact">Mastodon: @mathijs@lermer.nl</a><br>
-              <br><br>
+            <div id="knop_contact">
+              <a href="mailto:info@lermer.nl">E-mail: Mathijs@lermer.nl</a><br>
+              <br><br><br>
+              <a href="https://matrix.to/#/@mathijs:lermer.nl">[MATRIX]: @mathijs:lermer.nl</a><br>
+              <br><br><br>
+              <a href="https://mastodon.lermer.nl/@mathijs">Mastodon: @mathijs@lermer.nl</a><br>
+              <br>
             </div>
           </div>
 
@@ -91,7 +91,7 @@
           <div class="footer-links">
               <ul>
                 <li><a href="https://lermer.nl">&copy;LERMER.NL</a></Li>
-                <li><a href="https://git.lermer.nl/Mathijs/lermer.nl">GIT</a></Li>
+                <li><a href="https://git.lermer.nl/Mathijs/lermer.nl"> <i class="fas fa-code-merge"></i></a></Li>
               </ul>
           </div>
         </footer>
@@ -99,15 +99,4 @@
     </section>
   </div>
 </body>
-
-<script>
-function hamburgermenuknopje() {
-  var x = document.getElementById('main_menu_01');
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
 </html>

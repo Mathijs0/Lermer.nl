@@ -29,6 +29,7 @@
         <link rel="icon" href="assets/afb/favicon.png" type="image/png">
         <link href="/assets/css/mrl.css" rel="stylesheet">
         <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+        <script type="text/javascript" src="/assets/js/mrl.js"></script>
         <!--- site-->
   <meta name="viewport" content="width=device-width, initial-scale=1" >
 </head>
@@ -39,7 +40,7 @@
       <section id="sectie_kop">
         <div class="container">
           <header>
-            <logo>Lermer.nl</logo>
+            <logo><a href="/">LERMER.NL</a></logo>
             <nav id="main_menu_01">
               <ul>
                 <li> <a href="/index.html">Welkom</a></Li>
@@ -83,25 +84,14 @@
       <div class="container">
         <footer>
           <div class="footer-links">
-              <ul>
-                <li><a href="https://lermer.nl">&copy;LERMER.NL</a></Li>
-                <li><a href="https://git.lermer.nl/Mathijs/lermer.nl">GIT</a></Li>
-              </ul>
+            <ul>
+              <li><a href="https://lermer.nl">&copy;LERMER.NL</a></Li>
+              <li><a href="https://git.lermer.nl/Mathijs/lermer.nl"> <i class="fas fa-code-merge"></i></a></Li>
+            </ul>
           </div>
         </footer>
       </div>
     </section>
   </div>
 </body>
-
-<script>
-function hamburgermenuknopje() {
-  var x = document.getElementById('main_menu_01');
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
 </html>
