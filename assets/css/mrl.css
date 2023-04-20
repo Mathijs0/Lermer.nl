@@ -339,6 +339,7 @@
   }  
 
   /*footer**links*/
+  @media {
 .footer-links-l{
   max-width: 800px;
   margin-left: auto;
@@ -381,9 +382,56 @@
   .footer-links-l ul li a:active {
     color: #8d100e;
   }  
+  }
 
+/*footer**links*klein*/
+@media (max-width: 450px) {
+.footer-links-l{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border-radius: 5px;
+}
+   .footer-links-l ul {
+  padding: 0px;
+  display: inline-block
+  }
+
+  .footer-links-l ul li {
+  display: inline-block;
+  padding: 15px 10px 15px 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 20px;
+  }
+
+  .footer-links-l ul li:hover {
+    display: inline-block;
+    background-color: #374351;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 20px;
+    }
+
+.footer-links-l ul li a {
+    text-decoration: none;
+    color: #D2E0F0;
+  }
+
+  .footer-links-l ul li a:hover {
+    text-decoration: none;
+    border-radius: 5px;
+    color: #D2E0F0;
+  }
+
+  .footer-links-l ul li a:active {
+    color: #8d100e;
+  }  
+}
 
     /*footer**rechts*/
+@media {
 .footer-links-r{
   max-width: 800px;
   margin-left: auto;
@@ -426,7 +474,53 @@
   .footer-links-r ul li a:active {
     color: #8d100e;
   }  
+}
 
+    /*footer**rechts*small*/
+    @media (max-width: 450px) {
+      .footer-links-r{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+        border-radius: 5px;
+      }
+         .footer-links-r ul {
+        padding: 0px;
+        display: inline-block
+        }
+      
+        .footer-links-r ul li {
+        display: inline-block;
+        padding: 15px 10px 15px 10px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        font-size: 20px;
+        }
+      
+        .footer-links-r ul li:hover {
+          display: inline-block;
+          background-color: #374351;
+          text-transform: uppercase;
+          border-radius: 5px;
+          font-size: 20px;
+          }
+      
+      .footer-links-r ul li a {
+          text-decoration: none;
+          color: #D2E0F0;
+        }
+      
+        .footer-links-r ul li a:hover {
+          text-decoration: none;
+          border-radius: 5px;
+          color: #D2E0F0;
+        }
+      
+        .footer-links-r ul li a:active {
+          color: #8d100e;
+        }  
+      }
 
 /*footer**bar*/
 .footer-links-bar{
