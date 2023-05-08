@@ -186,7 +186,7 @@
 
   /*specials*********************************************************************************************************/
 
-  logo {
+  .logo {
     color: #D2E0F0;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -339,7 +339,7 @@
   }  
 
   /*footer**links*/
-@media {
+@media only screen and (min-width: 450px) {
   .footer-links-l{
     max-width: 800px;
     margin-left: auto;
@@ -385,7 +385,7 @@
 }
 
 /*footer**links*klein*/
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
 .footer-links-l{
   max-width: 800px;
   margin-left: auto;
@@ -431,8 +431,8 @@
 }
 
     /*footer**rechts*/
-@media {
-.footer-links-r{
+@media only screen and (min-width: 450px) {
+  .footer-links-r{
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -477,7 +477,7 @@
 }
 
     /*footer**rechts*small*/
-    @media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
       .footer-links-r{
         max-width: 800px;
         margin-left: auto;
