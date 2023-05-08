@@ -1,6 +1,2 @@
 User-agent: *
 Allow: /
-Disallow: /assets/afb/*
-Disallow: /assets/css/*
-Disallow: /assets/fontawsome/*
-Disallow: /assets/font/*
