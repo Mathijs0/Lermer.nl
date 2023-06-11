@@ -122,7 +122,7 @@
   /*links**/
   #tekst-links{
     text-align: left;
-    color: #374351;
+    color: #D2E0F0;
   }
   #tekst-links h1{
     padding-top: 50px;
@@ -267,11 +267,11 @@
     nav{
       float: right;
       }
+      
     nav ul li {
       display: inline-block;
       padding: 10px 17px 10px 17px;
       text-transform: uppercase;
-
       margin: 0;
       }
     nav ul li.active{
@@ -281,7 +281,6 @@
     nav ul li:hover {
       background: #374351;
       border-radius: 5px;
-      cursor: pointer;
       color: #D2E0F0;
       text-decoration: none;
   }
@@ -302,7 +301,7 @@
   text-align: center;
   border-radius: 5px;
 }
-   .footer-links ul {
+  .footer-links ul {
   padding: 0px;
   display: inline-block
   }
@@ -347,7 +346,7 @@
     text-align: left;
     border-radius: 5px;
   }
-     .footer-links-l ul {
+    .footer-links-l ul {
     padding: 0px;
     display: inline-block
     }
@@ -393,7 +392,7 @@
   text-align: left;
   border-radius: 5px;
 }
-   .footer-links-l ul {
+  .footer-links-l ul {
   padding: 0px;
   display: inline-block
   }
@@ -439,7 +438,7 @@
   text-align: right;
   border-radius: 5px;
 }
-   .footer-links-r ul {
+  .footer-links-r ul {
   padding: 0px;
   display: inline-block
   }
@@ -485,7 +484,7 @@
         text-align: right;
         border-radius: 5px;
       }
-         .footer-links-r ul {
+        .footer-links-r ul {
         padding: 0px;
         display: inline-block
         }
@@ -549,6 +548,37 @@
 
   }
 
-    
+
+  /*Link tree*********************************************************************************************************/
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  jusify-content: center;
+  align-items: center;
+}
+
+.links-container a {
+  width: 80%;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #374351;
+}
+
+.mrl-button{
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius:16px;
+    border:2px solid #ddd;
+    text-align: center;
+    padding:8px 16px
+}
+
+.mrl-button:hover{
+    color:#000!important;
+    background-color:#ddd !important
+}
+
   /*uitzonderingen*********************************************************************************************************/
 
