@@ -110,7 +110,7 @@
   #sectie_footer {
     background-color: #10161D;
     border-top: 2px solid  #242D38;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 100px;
