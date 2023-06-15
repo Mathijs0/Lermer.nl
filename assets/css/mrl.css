@@ -104,7 +104,8 @@
   
   #sectie_pagina {
     background-color: #171E26;
-    min-height: 595px;
+    min-height: calc(100vh - 260px);
+    padding-bottom: -100px;
   }
   
   #sectie_footer {
