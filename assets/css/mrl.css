@@ -70,22 +70,11 @@
 
   #page-container {
     position: relative;
-    min-height: 100vh;
   }
   
   #content-wrap {
-    padding-bottom: 80px;    /* Footer height */
-  } 
-  
-  #page-container {
-    position: relative;
-    min-height: 100vh;
+    padding-bottom: 0px;    /* Footer height */
   }
-  
-  #content-wrap {
-    padding-bottom: 80px;    /* Footer height */
-  }
-
   .container{
     max-width: 1140px;
   }
@@ -103,10 +92,21 @@
   }
   
   #sectie_pagina {
-    background-color: #171E26;
-    min-height: calc(100vh - 260px);
+    background-color: #171E26; 
+    min-height: calc(100vh - 200px);
     padding-bottom: -100px;
   }
+
+  #sectie_pagina_train {
+        min-height: calc(100vh - 290px);
+        padding-bottom: -100px;
+        background-image: url('/assets/afb/train.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+  
+    }
   
   #sectie_footer {
     background-color: #10161D;
