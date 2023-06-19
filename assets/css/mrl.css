@@ -569,7 +569,7 @@
 }
 
 .mrl-button{
-    width: 80%;
+    max-width: 300px;
     margin-bottom: 10px;
     border-radius:16px;
     border:2px solid #ddd;
