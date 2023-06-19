@@ -93,12 +93,12 @@
   
   #sectie_pagina {
     background-color: #171E26; 
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 190px);
     padding-bottom: -100px;
   }
 
   #sectie_pagina_train {
-        min-height: calc(100vh - 290px);
+        min-height: calc(100vh - 190px);
         padding-bottom: -100px;
         background-image: url('/assets/afb/train.gif');
         background-size: cover;
