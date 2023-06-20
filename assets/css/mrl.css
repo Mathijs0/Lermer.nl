@@ -185,6 +185,24 @@
       background-color: #374351;
     }
 
+
+  /*tabellen*********************************************************************************************************/
+  /*Tabel in linktree knop**/
+  .tabel_in_knop  {
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+    height:100%;
+  }
+  .tabel_in_knop .icon {  
+  font-size:32px;
+  }
+  td:last-child {
+    flex: 1;
+    display:inline-block;
+    /* to keep IE happy */
+  } 
+
   /*specials*********************************************************************************************************/
 
   .logo {
