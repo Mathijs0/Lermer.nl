@@ -197,7 +197,7 @@
   .tabel_in_knop .icon {  
   font-size:32px;
   }
-  td:last-child {
+  .tabel_in_knop td:last-child {
     flex: 1;
     display:inline-block;
     /* to keep IE happy */
